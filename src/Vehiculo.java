@@ -3,8 +3,8 @@ public abstract class Vehiculo {
     protected String tipo;
     protected String marca;
 
-    protected abstract void transportarEnTierra();
-    protected abstract void transporteEnAgua();
-    protected abstract void transporteEnAire();
+    protected abstract void transportCarga();
+    protected abstract void transportePasajeros();
+    protected abstract void transporteAlimentos();
 
 }
